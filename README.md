@@ -1,12 +1,12 @@
 DALS RGB LED Controller – ESPHome Conversion
 This project provides an overview of how to convert a DALS RGB LED Strip Controller to ESPHome and how to integrate it into Home Assistant. This method should also work for flashing Tasmota to the controller. The DALS RGB WIFI LED Strip is powered by an ESP8285MOD chip with soldering pads on the board that make it easy to flash. The controller includes a microphone and an IR sensor (used for the included remote) that will not be included in this tutorial but may be able to be leveraged by modifying the ESPHome bin file.
+![image](https://github.com/user-attachments/assets/590c6b6d-1dc3-46a0-a220-a3b0017d9a44)![image](https://github.com/user-attachments/assets/47f36f51-ee07-470d-a607-db69eec349dd)
 
 Pre-requisites:
 This project assumes you have a functioning instance of Home Assistant running on your network (https://www.home-assistant.io/) and know how to solder.
 
 Materials required:
 •	DALS Outdoor WIFI LED Strip (Model : IU-RGBWWIFI24DW)
-![image](https://github.com/user-attachments/assets/590c6b6d-1dc3-46a0-a220-a3b0017d9a44)![image](https://github.com/user-attachments/assets/47f36f51-ee07-470d-a607-db69eec349dd)
 •	Serial-to-USB Adapter
 •	Jumper wires
 •	Soldering iron
@@ -73,6 +73,7 @@ o	If you aren't using HTTPS or are having trouble you can use esphome-flasher (h
 
 
 •	You should now see your device in the ESPHome Dashboard with a green line indicating it is online. The default configuration file doesn't do anything though, so in Step 2 we will add the features we want.
+
 ![image](https://github.com/user-attachments/assets/60da09e1-b810-4e3b-bc29-15ab9999cfca)![image](https://github.com/user-attachments/assets/b12ceed3-c906-4f21-8744-4cb1ee9452bc)
 
 
