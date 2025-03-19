@@ -7,13 +7,20 @@ This project assumes you have a functioning instance of Home Assistant running o
 
 Materials required:
 •	DALS Outdoor WIFI LED Strip (Model : IU-RGBWWIFI24DW)
+
 •	Serial-to-USB Adapter
+
 •	Jumper wires
+
 •	Soldering iron
 
+
 Optional:
+
 •	3D printer to print new enclosure
+
 •	Hot Glue Gun
+
 
 STEP 1: Disassemble DALS controller
 •	The large brick that comes in the box is a power supply – you can ignore it for now.
